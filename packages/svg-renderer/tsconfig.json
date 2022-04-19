@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "commonjs",
+        "rootDir": "src",
+        "outDir": "build",
+        "pretty": true,
+        "moduleResolution": "node",
+        "strictNullChecks": true,
+        "declaration": true,
+        "jsx": "react"
+    },
+    "lib": [
+        "dom",
+        "esnext"
+    ],
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.tsx",
+    ],
+    "exclude": [
+        "node_modules",
+        "build",
+    ]
+}
+ 
